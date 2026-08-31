@@ -1,24 +1,24 @@
 ﻿// ARRAY
-string[] fruits = { "Apple", "Banana", "Orange" };
+string[] courts = { "Johannesburg", "Pretoria", "Soweto" };
 
-Console.WriteLine(fruits[0]);
+Console.WriteLine(courts[0]);
 
 
 // LIST
-List<string> cars = new List<string>();
+List<string> cases = new List<string>();
 
-cars.Add("BMW");
-cars.Add("Toyota");
-cars.Add("Ford");
+cases.Add("State vs John");
+cases.Add("State vs James");
+cases.Add("State vs Peter");
 
-Console.WriteLine(cars[1]);
+Console.WriteLine(cases[1]);
 
 
 // DICTIONARY
-Dictionary<int, string> students = new Dictionary<int, string>();
+Dictionary<int, string> caseNumbers = new Dictionary<int, string>();
 
-students.Add(1, "John");
-students.Add(2, "James");
-students.Add(3, "Peter");
+caseNumbers.Add(1, "JHB001");
+caseNumbers.Add(2, "JHB002");
+caseNumbers.Add(3, "JHB003");
 
-Console.WriteLine(students[2]);
+Console.WriteLine(caseNumbers[2]);
