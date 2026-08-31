@@ -46,6 +46,10 @@ class Program
 
         Console.WriteLine(people[1].Name);
         Console.WriteLine(people[1].Age);
+
+        // this is confusing sometimes
+        int month = (int)Months.April;
+        Console.WriteLine(month);
     }
 }
 
@@ -53,4 +57,20 @@ class Person
 {
     public string Name { get; set; }
     public int Age { get; set; }
+}
+
+enum Months { 
+    January,
+    February,
+    March,
+    April,
+    May,
+    June,
+    July,
+    August,
+    September,
+    October,
+    November,
+    December
+
 }
